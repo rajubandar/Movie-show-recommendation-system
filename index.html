@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Content Recommender</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎬 AI Content Recommender</h1>
+      <p class="subtitle">Personalized recommendations, Netflix-style</p>
+
+      <!-- Age -->
+      <div class="field">
+        <label>🎂 Age</label>
+        <input type="number" id="age" placeholder="Enter your age" />
+      </div>
+
+      <!-- Content Type Toggle -->
+      <div class="toggle-group">
+        <span>🎞 Movies</span>
+        <label class="switch">
+          <input type="checkbox" id="typeToggle" />
+          <span class="slider"></span>
+        </label>
+        <span>📺 TV Shows</span>
+      </div>
+
+      <!-- Genre Selection -->
+      <div class="genres">
+        <span class="chip" onclick="toggleGenre(this)">Action</span>
+        <span class="chip" onclick="toggleGenre(this)">Romance</span>
+        <span class="chip" onclick="toggleGenre(this)">Thriller</span>
+        <span class="chip" onclick="toggleGenre(this)">Comedy</span>
+        <span class="chip" onclick="toggleGenre(this)">Drama</span>
+        <span class="chip" onclick="toggleGenre(this)">Sci-Fi</span>
+      </div>
+
+      <!-- Mature Content Toggle -->
+      <div class="toggle-group">
+        <span>🔞 Allow Mature Content</span>
+        <label class="switch">
+          <input type="checkbox" id="matureToggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <!-- Button -->
+      <button class="recommend-btn" onclick="recommend()">
+        ✨ Recommend For Me
+      </button>
+
+      <!-- Results -->
+      <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
