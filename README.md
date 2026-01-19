@@ -59,9 +59,7 @@ DATA/
 │
 └── netflix_titles.csv      # Dataset
 
-
 ---
-
 ## 🚀 How It Works
 
 1. User selects:
