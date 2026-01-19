@@ -46,7 +46,7 @@ The project uses a **real Netflix dataset from Kaggle**, a **Python Flask backen
 
 ### 📂 Project Structure
 
-```text
+
 DATA/
 ├── backend/
 │   ├── app.py              # Flask API
