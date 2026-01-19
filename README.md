@@ -42,22 +42,6 @@ The project uses a **real Netflix dataset from Kaggle**, a **Python Flask backen
 ### Dataset
 - **Netflix Movies and TV Shows Dataset (Kaggle)**
 
----
-
-### 📂 Project Structure
-
-
-DATA/
-├── backend/
-│   ├── app.py              # Flask API
-│   └── recommender.py      # Recommendation logic
-│
-├── frontend/
-│   ├── index.html          # UI layout
-│   ├── style.css           # Styling
-│   └── script.js           # Frontend logic
-│
-└── netflix_titles.csv      # Dataset
 
 ---
 ## 🚀 How It Works
