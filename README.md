@@ -44,19 +44,20 @@ The project uses a **real Netflix dataset from Kaggle**, a **Python Flask backen
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
+
+```text
 DATA/
-│
 ├── backend/
-│ ├── app.py # Flask API
-│ └── recommender.py # Recommendation logic
+│   ├── app.py              # Flask API
+│   └── recommender.py      # Recommendation logic
 │
 ├── frontend/
-│ ├── index.html # UI layout
-│ ├── style.css # Styling
-│ └── script.js # Frontend logic
+│   ├── index.html          # UI layout
+│   ├── style.css           # Styling
+│   └── script.js           # Frontend logic
 │
-└── netflix_titles.csv # Dataset
+└── netflix_titles.csv      # Dataset
 
 
 ---
